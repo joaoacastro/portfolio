@@ -1,8 +1,11 @@
 import React from 'react'
+import './Projects.css'
 
 const Projects = () => {
   return (
-    <div>Projects</div>
+    <div className="projects">
+      <h1>.Projects</h1>
+    </div>
   )
 }
 
