@@ -1,0 +1,20 @@
+.apresentation {
+  text-align: justify;
+  height: 90vh;
+  color: #ffffff;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.apresentation > .title {
+  padding: 20px 0;
+  text-align: center;
+}
+.HiThere {
+  display: flex;
+  justify-content: center;
+}
+.HiThere > a {
+  cursor: auto;
+}

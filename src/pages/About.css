@@ -1,0 +1,16 @@
+.about > p {
+  margin: 2rem 0;
+}
+.about {
+  text-align: justify;
+  height: 90vh;
+  color: #ffffff;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+}
+
+.about>h1{
+  text-align: center;
+}

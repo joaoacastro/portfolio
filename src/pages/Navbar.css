@@ -1,0 +1,55 @@
+nav {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(114, 102, 89);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bolder;
+  position: fixed;
+  width: 100vw;
+}
+nav > .links {
+  display: flex;
+}
+nav > .links > .navlink {
+  display: flex;
+  padding: 10px 50px;
+  transition: box-shadow 0.5s ease, background-color 0.3s ease;
+  color: #ffffff;
+}
+nav > .links > .navlink:hover {
+  cursor: pointer;
+  color: #000000;
+  background-color: rgb(177, 134, 85);
+  box-shadow: 0 10px 7px -2px rgba(255, 255, 255, 0.3);
+}
+
+.languages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.languages > img.brazil-flag,
+.languages > img.usa-flag {
+  width: 25px;
+  height: 25px;
+}
+
+.brazil-flag:hover,
+.usa-flag:hover {
+  cursor: pointer;
+  border-radius: 20px;
+  border: #ffffff 1px solid;
+}
+
+.back-to-top::after {
+  margin-top: -5px;
+}
+
+.active {
+  font-weight: bold;
+  color: red;
+}
