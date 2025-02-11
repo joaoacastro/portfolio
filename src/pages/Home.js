@@ -6,7 +6,7 @@ const Home = () => {
     <div className="apresentation">
       <div className="HiThere">
         <img
-          src="https://readme-typing-svg.herokuapp.com?font=Ubuntu&weight=500&size=40&pause=1000&color=15F72A&center=true&vCenter=true&width=635&height=80&lines=Hi+there!+👋;Welcome+to+my+Portfolio+page+😁"
+          src="https://readme-typing-svg.herokuapp.com?font=Ubuntu&weight=500&size=40&pause=1000&color=FFFFFF&center=true&vCenter=true&width=635&height=80&lines=Hi+there!+👋;Welcome+to+my+Portfolio+page+😁"
           alt="Typing SVG"
         />
       </div>

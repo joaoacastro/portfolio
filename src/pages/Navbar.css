@@ -7,7 +7,11 @@ nav {
   color: #ffffff;
   text-transform: uppercase;
   font-weight: bolder;
-  position: fixed;
+  
+  /* position: fixed; */
+  position: relative;
+  z-index: 10; /* Valor maior que o dos botões */
+
   width: 100vw;
 }
 nav > .links {

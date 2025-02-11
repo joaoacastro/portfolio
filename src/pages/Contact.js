@@ -1,11 +1,7 @@
 import React, { useState } from "react";
 import emailjs from '@emailjs/browser';
 import "./Contact.css";
-import Navbar from "./Navbar";
 
-import icoLinkedin from '../img/ico/ico_linkedin.png';
-import icoInstagram from '../img/ico/ico_instagram.png';
-import icoGithub from '../img/ico/ico_github.png';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -57,53 +53,10 @@ const Contact = () => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <Navbar />
-      <h1>Contact</h1>
+
       <div className="containerContato">
         <span className="backgroundContact"></span>
-        <div className="socialMedia">
-          <ul>
-            <div className="linkedin-container">
-              <a
-                href="https://www.linkedin.com/in/joao-ac-castro/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={icoLinkedin} alt="icone linkedin" />
-                <div className="linkedin">
-                  <li>LinkedIn</li>
-                  {/* <span>@joao-ac-castro</span> */}
-                </div>
-              </a>
-            </div>
-            <div className="github-container">
-              <a
-                href="https://github.com/joaoacastro"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={icoGithub} alt="icone github" />
-                <div className="github">
-                  <li>GitHub</li>
-                  {/* <span>@joaoacastro</span> */}
-                </div>
-              </a>
-            </div>
-            <div className="instagram-container">
-              <a
-                href="https://www.instagram.com/jonnycastro/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={icoInstagram} alt="icone instagram" />
-                <div className="instagram">
-                  <li>Instagram</li>
-                  {/* <span>@jonnycastro</span> */}
-                </div>
-              </a>
-            </div>
-          </ul>
-        </div>
+
         <div className="formContainer">
           <div className="contactForm">
             <div className="nameForm">

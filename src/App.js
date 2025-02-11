@@ -8,11 +8,13 @@ import Skills from './pages/Skills';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
+import SocialMedia from './pages/SocialMedia';
 
 function App() {
   return (
     <div>
       <Navbar />
+      <SocialMedia />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
